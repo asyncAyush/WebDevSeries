@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow and text shadow</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .card {
+            margin: 23px 12px;
+            padding: 23px 12px;
+            border: 2px solid red;
+            background-color: khaki;
+            /*box shaddow is use to giving the shadow in side of edg of box
+            (-)sign is use to give the shadow upper edg of the box  and blur radius is use to sprad the colour*/
+            box-shadow: 7px 5px 30px rgb(11, 230, 30);
+            
+        }
+        .card h2{
+            text-shadow:-3px -2px 2px white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h2> This is css corce</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptates sunt ea quaerat animi ex nihil
+                asperiores eveniet cumque repudiandae dignissimos autem velit laborum fugit perspiciatis ad quod eos
+                perferendis voluptatibus vel tempora dolores?</p>
+        </div>
+        <div class="card" id="card2">
+            <h2>card2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, ea voluptate ratione quos dolores magni
+                temporibus, veritatis perspiciatis sed quod quas earum magnam voluptas consectetur eveniet non? Corporis
+                sequi doloremque, ipsam voluptatem non autem?</p>
+        </div>
+        <div class="card" id="card3">
+            <h2>card3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas at aliquid laboriosam ex corporis quae
+                totam cumque quidem unde praesentium ullam deleniti dolor iure impedit cupiditate dolore, aperiam
+                eveniet recusandae iusto fuga aspernatur nulla!</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
